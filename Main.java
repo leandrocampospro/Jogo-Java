@@ -1,12 +1,13 @@
 public class Main {
-
-    public static void main(String[] args) {
-        System.out.println("================================");
-        System.out.println("              JOGOJAVA");
-        System.out.println("================================");
-        System.out.println("Bem-vindo ao jogo!");
-        System.out.println("Jogo criado por Leandro Campos");
+   public static void main(String[] args) {
+jogador jogador = new jogador("Leandro", 100, 30, 30);
 
 
+        System.out.println("===JOGO JAVA===");
+        System.out.println("Nome: " + jogador.nome);
+        System.out.println("Vida: " + jogador.vida);
+        System.out.println("Ataque: " + jogador.ataque);
+        System.out.println("Defesa: " + jogador.defesa);
+       }
     }
-}
+        
