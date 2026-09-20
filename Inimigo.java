@@ -10,7 +10,9 @@ public class Inimigo {
         this.vida = vida;
         this.ataque = ataque;
         this.defesa = defesa;
-    }
+   
+  }
+  public void atacar(Jogador jogador){
+    jogador.vida = jogador.vida - ataque;
 }
-    
-
+}
